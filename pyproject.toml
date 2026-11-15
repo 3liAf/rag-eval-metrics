@@ -41,3 +41,11 @@ classifiers = [
 Homepage = "https://github.com/3liAf/rag-eval-metrics"
 Repository = "https://github.com/3liAf/rag-eval-metrics.git"
 Issues = "https://github.com/3liAf/rag-eval-metrics/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rageval"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/rageval",
+]
