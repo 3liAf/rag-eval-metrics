@@ -1,5 +1,10 @@
 # rag-eval-metrics
 
+[![CI](https://github.com/3liAf/rag-eval-metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/3liAf/rag-eval-metrics/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Release](https://img.shields.io/github/v/release/3liAf/rag-eval-metrics)](https://github.com/3liAf/rag-eval-metrics/releases)
+
 Zero-dependency Python utility for evaluating Retrieval-Augmented Generation (RAG) retrieval accuracy.
 
 ## Metrics Supported
