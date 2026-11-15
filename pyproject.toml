@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rag-eval-metrics"
+version = "0.1.0"
+description = "Zero-dependency evaluation metrics (Hit Rate @ K, MRR, NDCG, RRF) for RAG retrieval benchmarking."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Ali Afzal Yousuf", email = "ali.yousuf@fau.de" },
+]
+keywords = [
+    "rag",
+    "information-retrieval",
+    "evaluation",
+    "metrics",
+    "ndcg",
+    "mrr",
+    "hit-rate",
+    "vector-search",
+    "embeddings",
+    "llm",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/3liAf/rag-eval-metrics"
+Repository = "https://github.com/3liAf/rag-eval-metrics.git"
+Issues = "https://github.com/3liAf/rag-eval-metrics/issues"
