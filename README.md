@@ -8,6 +8,12 @@ Zero-dependency Python utility for evaluating Retrieval-Augmented Generation (RA
 - **MRR (Mean Reciprocal Rank)**: Average reciprocal rank of the first relevant document across queries.
 - **NDCG @ K**: Normalized Discounted Cumulative Gain penalizing relevant results appearing further down the list.
 
+## Installation
+
+```bash
+pip install git+https://github.com/3liAf/rag-eval-metrics.git
+```
+
 ## Usage
 
 ```python
